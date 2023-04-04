@@ -28,7 +28,7 @@ function calcularResultado() {
         mensaje = "Ni de broma, olvida que existo";
     } else if (totalPoints >= 10 && totalPoints < 40) {
         mensaje = "Vas por buen camino pero sigue deconstruyendote";
-    } else if (totalPoints >= 40 && totalPoints <= 60) {
+    } else if (totalPoints >= 40 && totalPoints <= 70) {
         mensaje = "Eres Zori?";
     }
 

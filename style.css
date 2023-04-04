@@ -1,73 +1,9 @@
 
-<style>
-@import url('https://external-media.spacehey.net/css/sbBtDTZ4drWl6yoAQ2BdoCxGug_-BXrotoHsq4B_mTY0=/https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 400;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Roboto-Regular.ttf);
+.col-right 
+.col.w-40.left{
+    background-image: url(SRC/patron-corazones-dia-madre.jpg);
+    
 }
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 400;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Regular.ttf);
-    unicode-range: U+41-5a;
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 400;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Regular.ttf);
-    unicode-range: U+61-7a;
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 600;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Roboto-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 600;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Medium.ttf);
-    unicode-range: U+41-5a;
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 600;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Medium.ttf);
-    unicode-range: U+61-7a;
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 700;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Roboto-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 700;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Bold.ttf);
-    unicode-range: U+41-5a;
-}
-
-@font-face {
-    font-family: 'Aileron';
-    font-weight: 700;
-    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Aileron-Bold.ttf);
-    unicode-range: U+61-7a;
-}
-body {
-    /* background-image: url(https://external-media.spacehey.net/media/sHsYby_TjyizY292HnH4Er5DfVReg6YmeoutD-2PhVhk=/https://i.pinimg.com/564x/24/d7/a9/24d7a917bd39cb046a807e01b69dac54.jpg); */
-    background-color: #007f7e;
-    background-attachment: fixed;
-    font-family: Libre Franklin;
-    font-size: 17px;
-}
-
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
@@ -132,6 +68,9 @@ nav .links:before {
     font-weight: 600;
     content: "spacehey - Microsoft Internet Explorer";
 }
+.todo-el-fondo{
+    background-image:url(SRC/patron-corazones-dia-madre.jpg);
+}
 
 .top {
     color: transparent !important;
@@ -191,6 +130,7 @@ main {
     background-position: right;
     margin-bottom: 0;
 }
+
 
 .profile h1 {
     padding-left: 5px;
@@ -310,6 +250,8 @@ main {
     border-width: 2px;
     border-color: #fff #000 #000 #fff;
     background: #f56bcb;
+   background-image: url(SRC/patron-corazones-dia-madre.jpg);
+   background-size: 300px;
 }
 
 .blog-preview {
